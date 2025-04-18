@@ -1,9 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
+    width: 500px;
+    height: 656px;
+    flex-shrink: 0;
     background: #FFF;
     text-align: center;
-    font-family: Tahoma, serif;
 }
 
 
@@ -123,6 +123,7 @@ input {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
+    border-radius: 5px;
     border: none;
     width: 300px;
     height: 40px;
@@ -135,6 +136,7 @@ input {
     color: #727272;
     background-color: #FFF;
     text-align: center;
+    font-family: Tahoma, serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -145,6 +147,7 @@ input {
     border: 1px solid #EAEAEA;
     width: 300px;
     height: 40px;
+    flex-shrink: 0;
     margin-bottom: 40px;
 }
 
