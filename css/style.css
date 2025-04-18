@@ -1,9 +1,9 @@
 body {
     width: 500px;
     height: 656px;
-    flex-shrink: 0;
     background: #FFF;
     text-align: center;
+
 }
 
 
@@ -13,8 +13,9 @@ body {
     padding: 40px 30px;
     background: #FFF;
     text-align: center;
+    font-family: Tahoma, serif;
     border-radius: 1px;
-    border: 1px solid #A5A5A5;
+    border: 1px solid#A5A5A5;
     margin: 52px 100px;
     border-bottom: 10px solid #46A358;
 }
@@ -31,11 +32,13 @@ body {
 
 .login{
     color: #3D3D3D;
+    font-family: Tahoma, serif; 
 
 }
  
 span{
     color: #3D3D3D;
+    font-family: Tahoma, serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 250;
@@ -44,12 +47,14 @@ span{
 
 .link {
     color: #46A358;
+    font-family: Tahoma, serif;
 }
 
 
 
 .text {
     color: #3D3D3D;
+    font-family: Tahoma, serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -61,6 +66,7 @@ span{
 
 input {
     background: #FFF;
+    font-family: Tahoma, serif;
     font-style: normal;
     border-radius: 5px;
     border: 1px solid #EAEAEA;
@@ -79,6 +85,7 @@ input {
 .submit {
     width: 300px;
     height: 45px;
+    flex-shrink: 0;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -93,6 +100,7 @@ input {
 
 .register {
     color: #FFF;
+    font-family: Tahoma, serif;
     background-color: #4CAF50;
     font-size: 14px;
     font-style: normal;
@@ -105,6 +113,7 @@ input {
 
 .about {
     color: #3D3D3D;
+    font-family: Tahoma, serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -127,8 +136,6 @@ input {
     border: none;
     width: 300px;
     height: 40px;
-    flex-shrink: 0;
-    border-radius: 5px;
     border: 1px solid #EAEAEA;
 }
 
@@ -143,11 +150,9 @@ input {
     border-radius: 5px;
     line-height: 16px;
     border: none;
-    border-radius: 5px;
     border: 1px solid #EAEAEA;
     width: 300px;
     height: 40px;
-    flex-shrink: 0;
     margin-bottom: 40px;
 }
 
